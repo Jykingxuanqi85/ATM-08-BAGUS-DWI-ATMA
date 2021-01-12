@@ -30,7 +30,7 @@ const MenuTag = styled.Text`
 const Separator = styled.View`
 	width: 3px;
 	height: 3px;
-	background-color: #e8e8e8;
+	background-color: #fa7575;
 	margin: 6px 0;
 	border-radius: 3px;
 `
@@ -74,24 +74,24 @@ const Hero = () => {
 		<Container>
 			<Banner resizeMode='contain' source={require('../assets/banner.png')} />
 			<Tags>
-				<MenuTag>Envolvente</MenuTag>
+				<MenuTag>Bagus Dwi Atma</MenuTag>
 				<Separator />
-				<MenuTag>Empolgantes</MenuTag>
+				<MenuTag>XII-RPL</MenuTag>
 			</Tags>
 			<MenuHero>
 				<Button>
 					<Feather name='plus' size={26} color='#FFF' />
-					<TextButton>Minha lista</TextButton>
+					<TextButton>Daftar Saya</TextButton>
 				</Button>
 
 				<Play>
 					<Ionicons name='ios-play' size={26} />
-					<TextButtonPlay>Assistir</TextButtonPlay>
+					<TextButtonPlay>Tonton</TextButtonPlay>
 				</Play>
 
 				<Button>
 					<Feather name='info' size={22} color='#FFF' />
-					<TextButton>Saiba mais</TextButton>
+					<TextButton>Info</TextButton>
 				</Button>
 			</MenuHero>
 		</Container>
